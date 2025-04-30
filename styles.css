@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #FFF8E7;
     padding: 0 2rem 2rem 2rem;
+    width: 60ch;
 }
 
 h1 {
@@ -53,11 +54,16 @@ h1 {
     font-weight: 800;
     font-size: 2em;
     color: #a5b031;
+    margin-bottom: 1rem;
 }
 
 a#title,
 a#title:visited {
     color: #a5b031;
+}
+
+a#title:hover {
+    color: #C6D15A;
 }
 
 p {
@@ -79,27 +85,38 @@ p {
     transform: rotate(10deg);
 } */
 
-.emoji {
-    margin-top: 0.5em;
-    font-size: 2em;
-    transition: transform 3s;
-    position: absolute;
-}
-
-.emoji:hover {
-    transform: rotate(360deg);
-    cursor: default;
-}
-
 a,
 a:visited {
     color: rgb(193, 83, 0);
     font-weight: bold;
-    text-decoration: none;
-    transition: 
-        text-decoration 0.3s,
+    text-decoration: wavy underline;
+    transition: color 0.3s;
 }
 
 a:hover {
     text-decoration: wavy underline;
+    color: #ED6D32;
+}
+
+form {
+    padding-top: 1rem;
+}
+
+#bd-email {
+    border-radius: 10px;
+    border: solid 1px #00000022;
+    padding: 0.2rem 0.5rem;
+}
+
+.emoji {
+    margin-top: 1.5rem;
+    font-size: 2em;
+    transition: transform 1s;
+    position: absolute;
+}
+
+.emoji:hover {
+    transform: rotate(359deg);
+    cursor: default;
+    transition: transform 2s ease-out;
 }
