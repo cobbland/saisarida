@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #FFF8E7;
     padding: 0 2rem 2rem 2rem;
-    width: 60ch;
+    max-width: 60ch;
 }
 
 h1 {
