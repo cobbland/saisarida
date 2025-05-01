@@ -54,7 +54,6 @@ h1 {
     font-weight: 800;
     font-size: 2em;
     color: #a5b031;
-    margin-bottom: 1rem;
 }
 
 a#title,
@@ -89,7 +88,7 @@ a,
 a:visited {
     color: rgb(193, 83, 0);
     font-weight: bold;
-    text-decoration: wavy underline;
+    text-decoration: none;
     transition: color 0.3s;
 }
 
@@ -109,7 +108,7 @@ form {
 }
 
 .emoji {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     font-size: 2em;
     transition: transform 1s;
     position: absolute;
