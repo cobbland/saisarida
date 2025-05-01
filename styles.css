@@ -43,9 +43,13 @@ h1, h2, h3, h4, h5, h6 {
   
 /* End default styles. */
 
-body {
+body { 
     background-color: #FFF8E7;
-    padding: 0 2rem 2rem 2rem;
+}
+
+article {
+    background-color: #FFF8E7;
+    padding: 0 2rem 1rem 2rem;
     max-width: 60ch;
 }
 
@@ -108,10 +112,10 @@ form {
 }
 
 .emoji {
-    margin-top: 1rem;
     font-size: 2em;
     transition: transform 1s;
     position: absolute;
+    margin-left: 2rem;
 }
 
 .emoji:hover {
