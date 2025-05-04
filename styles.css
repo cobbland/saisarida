@@ -45,11 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 
 body { 
     background-color: #FFF8E7;
+    padding: 0rem 2rem;
 }
 
 article {
     background-color: #FFF8E7;
-    padding: 0 2rem 1rem 2rem;
     max-width: 60ch;
 }
 
@@ -102,20 +102,33 @@ a:hover {
 }
 
 form {
-    padding-top: 1rem;
+    padding: 1rem 0;
 }
 
 #bd-email {
+    font-family: Helvetica, Arial, sans-serif;
     border-radius: 10px;
     border: solid 1px #00000022;
     padding: 0.2rem 0.5rem;
+}
+
+#bd-submit {
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    border: solid 1px #00000022;
+    padding: 0.2rem 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#bd-submit:hover {
+    background-color: cornflowerblue;
+    color: #ffffffdd;
 }
 
 .emoji {
     font-size: 2em;
     transition: transform 1s;
     position: absolute;
-    margin-left: 2rem;
 }
 
 .emoji:hover {
