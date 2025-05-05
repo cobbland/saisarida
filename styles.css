@@ -48,16 +48,13 @@ body {
     padding: 0rem 2rem;
 }
 
-article {
-    background-color: #FFF8E7;
-    max-width: 60ch;
-}
-
-h1 {
+header {
     line-height: 1em;
     font-weight: 800;
     font-size: 2em;
     color: #a5b031;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 1.5rem;
 }
 
 a#title,
@@ -67,6 +64,11 @@ a#title:visited {
 
 a#title:hover {
     color: #C6D15A;
+}
+
+section {
+    background-color: #FFF8E7;
+    max-width: 60ch;
 }
 
 p {
