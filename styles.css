@@ -98,9 +98,11 @@ a:visited {
     transition: color 0.3s;
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: wavy underline;
     color: #ED6D32;
+    outline: none;
 }
 
 form {
@@ -114,6 +116,12 @@ form {
     padding: 0.2rem 0.5rem;
 }
 
+#bd-email:hover,
+#bd-email:focus {
+    outline: none;
+    outline: solid 2px cornflowerblue;
+}
+
 #bd-submit {
     font-family: Helvetica, Arial, sans-serif;
     border-radius: 10px;
@@ -122,9 +130,11 @@ form {
     transition: background-color 0.3s, color 0.3s;
 }
 
-#bd-submit:hover {
+#bd-submit:hover,
+#bd-submit:focus {
     background-color: cornflowerblue;
     color: #ffffffdd;
+    outline: none;
 }
 
 .emoji {
